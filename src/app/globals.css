@@ -16,6 +16,13 @@
   }
 }
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
